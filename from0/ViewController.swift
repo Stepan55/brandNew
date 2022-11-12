@@ -34,5 +34,11 @@ class ViewController: UIViewController {
         }
         
     }
+    // MARK:                            ПЕРЕХОД НА ВТОРОЙ ЭКРАН 
+    @IBAction func goID(_ sender: Any) {
+        let _: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newController = storyboard?.instantiateViewController(identifier: "vc") as! SecondViewController
+        self.present(newController, animated: true, completion: nil)
+    }
 }
 
