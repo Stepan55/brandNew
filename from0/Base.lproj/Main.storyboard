@@ -292,7 +292,7 @@
                                 <state key="normal" title="Two"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sly-yw-gCF">
-                                <rect key="frame" x="120.66666666666669" y="424" width="187" height="88"/>
+                                <rect key="frame" x="0.0" y="409.66666666666669" width="428" height="116.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
@@ -303,11 +303,11 @@
                             <constraint firstItem="Sly-yw-gCF" firstAttribute="centerY" secondItem="deT-Wg-hVc" secondAttribute="centerY" id="2v1-iX-0DS"/>
                             <constraint firstItem="deT-Wg-hVc" firstAttribute="trailing" secondItem="VCa-0b-AWB" secondAttribute="trailing" constant="30" id="J5c-o2-MiC"/>
                             <constraint firstItem="deT-Wg-hVc" firstAttribute="bottom" secondItem="VCa-0b-AWB" secondAttribute="bottom" constant="3" id="KwV-rc-oag"/>
-                            <constraint firstItem="Sly-yw-gCF" firstAttribute="width" secondItem="FAj-LU-aGX" secondAttribute="height" multiplier="187:926" id="LBg-gd-dnp"/>
                             <constraint firstItem="VCa-0b-AWB" firstAttribute="leading" secondItem="n7o-bQ-Pmm" secondAttribute="trailing" constant="128" id="P8m-44-B6n"/>
                             <constraint firstItem="n7o-bQ-Pmm" firstAttribute="leading" secondItem="deT-Wg-hVc" secondAttribute="leading" constant="30" id="U8l-3e-6Ib"/>
                             <constraint firstItem="deT-Wg-hVc" firstAttribute="bottom" secondItem="n7o-bQ-Pmm" secondAttribute="bottom" constant="2" id="YAZ-QG-81a"/>
-                            <constraint firstItem="Sly-yw-gCF" firstAttribute="height" secondItem="FAj-LU-aGX" secondAttribute="width" multiplier="25:122" id="aDv-Wk-Mbp"/>
+                            <constraint firstItem="Sly-yw-gCF" firstAttribute="width" secondItem="FAj-LU-aGX" secondAttribute="width" id="aDv-Wk-Mbp"/>
+                            <constraint firstItem="Sly-yw-gCF" firstAttribute="height" secondItem="FAj-LU-aGX" secondAttribute="width" multiplier="3:11" id="hSS-sp-fTQ"/>
                             <constraint firstItem="VCa-0b-AWB" firstAttribute="centerX" secondItem="n7o-bQ-Pmm" secondAttribute="centerX" constant="248" id="oBV-2B-xvW"/>
                             <constraint firstItem="n7o-bQ-Pmm" firstAttribute="width" secondItem="VCa-0b-AWB" secondAttribute="width" id="uys-JF-XuC"/>
                             <constraint firstItem="n7o-bQ-Pmm" firstAttribute="height" secondItem="VCa-0b-AWB" secondAttribute="height" multiplier="1.01266" id="yGQ-rB-jHL"/>
